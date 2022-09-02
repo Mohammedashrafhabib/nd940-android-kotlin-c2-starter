@@ -23,6 +23,8 @@
         <argument
             android:name="selectedAsteroid"
             app:argType="com.udacity.asteroidradar.Asteroid"/>
+        <argument android:name="isSaved"
+            app:argType="boolean" />
     </fragment>
 
 </navigation>

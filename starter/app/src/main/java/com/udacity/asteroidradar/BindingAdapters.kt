@@ -8,8 +8,12 @@ import androidx.databinding.BindingAdapter
 fun bindAsteroidStatusImage(imageView: ImageView, isHazardous: Boolean) {
     if (isHazardous) {
         imageView.setImageResource(R.drawable.ic_status_potentially_hazardous)
+        imageView.contentDescription="asteroid potentially hazardous"
+
     } else {
         imageView.setImageResource(R.drawable.ic_status_normal)
+        imageView.contentDescription="asteroid normal"
+
     }
 }
 
@@ -17,8 +21,11 @@ fun bindAsteroidStatusImage(imageView: ImageView, isHazardous: Boolean) {
 fun bindDetailsStatusImage(imageView: ImageView, isHazardous: Boolean) {
     if (isHazardous) {
         imageView.setImageResource(R.drawable.asteroid_hazardous)
+        imageView.contentDescription="asteroid hazardous"
     } else {
         imageView.setImageResource(R.drawable.asteroid_safe)
+        imageView.contentDescription="asteroid safe"
+
     }
 }
 
