@@ -1,3 +1,6 @@
+# API KEY
+Add your API key to starter/app/src/main/java/com/udacity/asteroidradar/Constants.kt 
+    const val API_KEY ="DEMO_KEY"
 # Project Title
 
 Asteroid Radar
